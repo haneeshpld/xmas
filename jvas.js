@@ -91,7 +91,7 @@ var snowConfig = {
       
       // add the h1 at the end with the welcome text
       var h1 = document.createElement('h1')
-      h1.appendChild(document.createTextNode('Your Santa is ' + x + '!'))
+      h1.appendChild(document.createTextNode('Your Santa was ' + x + '!'))
       setTimeout(function() {
         register.parentElement.appendChild(h1)     
         setTimeout(function() {h1.style.opacity = 1}, 50)
