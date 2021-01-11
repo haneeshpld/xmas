@@ -81,7 +81,7 @@ var snowConfig = {
           // iterate over each element in the array
           for (var i = 0; i < obj.length; i++){
             // look for the entry with a matching `code` value
-            if (obj[i].code == needle){
+            if (obj[i].code == name){
                // we found it
               var x= obj[i].name
             }
