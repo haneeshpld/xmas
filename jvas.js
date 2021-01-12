@@ -70,7 +70,8 @@ var snowConfig = {
             {"name": "Sandeep", "code": "nisha"},
             {"name": "Bhushan", "code": "tejaswini"},
             {"name": "Haneesh", "code": "jijna"},
-            {"name": "Manasa", "code": "jincy"}
+            {"name": "Jiya", "code": "vishal"},
+            {"name": "Vishal", "code": "balaji"}
             
           ];
           
