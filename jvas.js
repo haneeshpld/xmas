@@ -86,12 +86,13 @@ var snowConfig = {
               var x= obj[i].name
             }
           }
+
+          
       // remove the box if there is no next question
       register.className = 'close'
-      
       // add the h1 at the end with the welcome text
       var h1 = document.createElement('h1')
-      h1.appendChild(document.createTextNode('Your Santa was ' + x + '!'))
+    h1.appendChild(document.createTextNode('Your Santa was ' + x + '!'))
       setTimeout(function() {
         register.parentElement.appendChild(h1)     
         setTimeout(function() {h1.style.opacity = 1}, 50)
@@ -132,7 +133,7 @@ var snowConfig = {
     function showCurrent(callback) {
       inputContainer.style.opacity = 1
       inputProgress.style.transition = ''
-      inputProgress.style.width = '100%'
+      inputProgress.style.width = '88%'
       setTimeout(callback, wTime)
     }
   
