@@ -246,7 +246,7 @@ var snowConfig = {
   }
   
   /*An array containing all the country names in the world:*/
-  var countries = ["Prayaga","Haneesh", "Arul", "Arjun", "Anitha", "Manasa", "Nisha", "Balaji","Vishal","Jiya",];
+  var countries = ["Prayaga","Haneesh", "Arul", "Arjun", "Anitha", "Manasa", "Nisha", "Balaji","Vishal","Jiya","Roshan"];
   
   /*initiate the autocomplete function on the "inputField" element, and pass along the countries array as possible autocomplete values:*/
   autocomplete(document.getElementById("inputField"), countries);
